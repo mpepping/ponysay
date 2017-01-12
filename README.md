@@ -3,7 +3,8 @@ docker-ponysay
 
 The mission-critical `ponysay` command in a container.
 
-Usage:
+Usage
+-----
 
 ```
 docker run -ti --rm mpepping/ponysay --help
@@ -13,7 +14,8 @@ docker run -ti --rm mpepping/ponysay "foo"
 ```
 
 
-Full help:
+Full help
+---------
 
 ```
 ponysay — cowsay reimplemention for ponies
@@ -53,5 +55,10 @@ SYNOPSIS
 
 ```
 
-> <http://github.com/mpepping>
-> <https://hub.docker.com/r/mpepping/>
+
+Ref.
+----
+
+* <http://github.com/mpepping>
+* <https://hub.docker.com/r/mpepping/>
+
