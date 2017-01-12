@@ -6,8 +6,16 @@ The mission-critical `ponysay` command in a container.
 Usage:
 
 ```
-docker run -ti ponysay --help
+docker run -ti --rm mpepping/ponysay --help
+docker run -ti --rm mpepping/ponysay -q
+docker run -ti --rm mpepping/ponysay "foo"
 
+```
+
+
+Full help:
+
+```
 ponysay — cowsay reimplemention for ponies
 
 Ponysay displays an image of a pony saying some text provided by the user.
