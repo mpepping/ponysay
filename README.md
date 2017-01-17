@@ -13,6 +13,12 @@ docker run -ti --rm mpepping/ponysay "foo"
 
 ```
 
+Demo
+----
+
+
+[![asciicast](https://asciinema.org/a/a5uhtpmy5wbkiilqkivi7luir.png)](https://asciinema.org/a/a5uhtpmy5wbkiilqkivi7luir)
+
 
 Full help
 ---------
