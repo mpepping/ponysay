@@ -1,7 +1,7 @@
-docker-ponysay
-==============
+# ponysay
 
-The mission-critical `ponysay` command in a container.
+The mission-critical `ponysay` command containerized.
+
 
 Usage
 -----
@@ -16,12 +16,14 @@ docker run -ti --rm mpepping/ponysay "foo"
 Demo
 ----
 
-
 [![asciicast](https://asciinema.org/a/a5uhtpmy5wbkiilqkivi7luir.png)](https://asciinema.org/a/a5uhtpmy5wbkiilqkivi7luir)
 
 
 Full help
 ---------
+
+Here's the help output .. but did you know there is also a `ponysay` [manual in PDF](https://github.com/erkin/ponysay/blob/master/ponysay.pdf)?
+
 
 ```
 ponysay — cowsay reimplemention for ponies

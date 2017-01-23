@@ -9,4 +9,4 @@ RUN apk update && \
     apk del openssl texinfo && \
     rm -rf ponysay.zip ponysay-master
 
-entrypoint ["ponysay"]
+entrypoint ["/usr/bin/ponysay"]
