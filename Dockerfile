@@ -7,6 +7,6 @@ RUN apk update && \
     unzip ponysay.zip && cd ponysay-master && \
     ./setup.py install --freedom=partial && \
     apk del openssl texinfo && \
-    rm -rf ponysay.zip ponysay-master
+    rm -rf /ponysay.zip /ponysay-master /usr/lib/python*/__pycache__/*.pyc /var/cache/apk/*
 
 entrypoint ["/usr/bin/ponysay"]
