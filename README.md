@@ -70,3 +70,9 @@ Ref.
 * <http://github.com/mpepping>
 * <https://hub.docker.com/r/mpepping/>
 
+
+Build info
+----------
+
+Using commit [74c28c7617f1c544bc16559b24be71734c17b133](https://github.com/erkin/ponysay/commit/74c28c7617f1c544bc16559b24be71734c17b133)
+
