@@ -67,12 +67,11 @@ SYNOPSIS
 Ref.
 ----
 
-* <http://github.com/mpepping>
-* <https://hub.docker.com/r/mpepping/>
+* [Ponysay source repo](https://github.com/erkin/ponysay/)
+* [Source repo for this image](http://github.com/mpepping)
 
 
 Build info
 ----------
 
-Using commit [74c28c7617f1c544bc16559b24be71734c17b133](https://github.com/erkin/ponysay/commit/74c28c7617f1c544bc16559b24be71734c17b133)
-
+Using commit [f284dd7c58a6a592225cb364c8ac46dc94ccc688](https://github.com/erkin/ponysay/commit/f284dd7c58a6a592225cb364c8ac46dc94ccc688]
