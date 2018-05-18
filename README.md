@@ -74,4 +74,4 @@ Ref.
 Build info
 ----------
 
-Using commit [f284dd7c58a6a592225cb364c8ac46dc94ccc688](https://github.com/erkin/ponysay/commit/f284dd7c58a6a592225cb364c8ac46dc94ccc688]
+Using commit [87a0d79b56313dd3efaed44fc1204c3b6cb401b6](https://github.com/erkin/ponysay/commit/87a0d79b56313dd3efaed44fc1204c3b6cb401b6)
