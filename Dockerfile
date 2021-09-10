@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 LABEL maintainer "Martijn Pepping <martijn.pepping@automiq.nl>"
-LABEL org.opencontainers.image.source https://github.com/mpepping/docker-ponysay
+LABEL org.opencontainers.image.source https://github.com/mpepping/ponysay
 
 RUN apk update && \
     apk add openssl python3 texinfo && \
