@@ -3,6 +3,8 @@ name: Docker Image CI
 on:
   push:
     branches: [ main ]
+    tags:
+      - 'v*'
 
 jobs:
 
@@ -23,9 +25,19 @@ jobs:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
 
+    - name: Docker meta
+      id: meta
+      uses: docker/metadata-action@v5
+      with:
+        images: docker.io/mpepping/ponysay
+        tags: |
+          type=ref,event=tag
+          type=raw,value=latest,enable={{is_default_branch}}
+
     - name: Build and push
       uses: docker/build-push-action@v5
       with:
         push: true
         platforms: linux/amd64,linux/arm64
-        tags: docker.io/mpepping/ponysay:latest
+        tags: ${{ steps.meta.outputs.tags }}
+        labels: ${{ steps.meta.outputs.labels }}
