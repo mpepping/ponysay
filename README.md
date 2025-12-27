@@ -2,30 +2,24 @@
 
 The mission-critical `ponysay` command containerized.
 
+## Usage
 
-Usage
------
-
-```
+```bash
 docker run -ti --rm mpepping/ponysay --help
 docker run -ti --rm mpepping/ponysay -q
 docker run -ti --rm mpepping/ponysay "foo"
 
 ```
 
-Demo
-----
+## Demo
 
 [![asciicast](https://asciinema.org/a/a5uhtpmy5wbkiilqkivi7luir.png)](https://asciinema.org/a/a5uhtpmy5wbkiilqkivi7luir)
 
-
-Full help
----------
+## Full help
 
 Here's the help output .. but did you know there is also a `ponysay` [manual in PDF](https://github.com/erkin/ponysay/blob/master/ponysay.pdf)?
 
-
-```
+```text
 ponysay — cowsay reimplemention for ponies
 
 Ponysay displays an image of a pony saying some text provided by the user.
@@ -60,18 +54,14 @@ SYNOPSIS
     -F  --anypony PONY      Select a pony, that can be a non-MLP:FiM pony.
     -q  --quote PONY        Select a pony which will quote herself.
 
-
 ```
 
+## Ref.
 
-Ref.
-----
+- [Ponysay source repo](https://github.com/erkin/ponysay/)
+- [Ponysay fork that solves some char escaping issues](https://github.com/Tonyl314/ponysay)
+- [Source repo for this image](http://github.com/mpepping)
 
-* [Ponysay source repo](https://github.com/erkin/ponysay/)
-* [Source repo for this image](http://github.com/mpepping)
+## Build info
 
-
-Build info
-----------
-
-Using commit [4e6d1ad3ed8566912a8d69cfbc9d31561b7d8011](https://github.com/erkin/ponysay/commit/4e6d1ad3ed8566912a8d69cfbc9d31561b7d8011)
+Using commit [572c50f20e2b281ff1af479de4f850ffe8ef72a7](https://github.com/Tonyl314/ponysay/commit/572c50f20e2b281ff1af479de4f850ffe8ef72a7) of Tonyl314/ponysay.
